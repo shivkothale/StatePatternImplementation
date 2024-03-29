@@ -1,9 +1,5 @@
-# CSX42: Assignment 3
+# Imlementaion of State design pattern for student course management with error logs 
 ## Name: Shivkumar Subhash Kothale
-
-# Using 2 Slack Days 2 Remaining
------------------------------------------------------------------------
------------------------------------------------------------------------
 
 
 Following are the commands and the instructions to run ANT on your project.
@@ -49,20 +45,3 @@ Note: Arguments accept the absolute path of the files.
    Student Context: This code orchestrates course registration for a student. It iterates through preferences, attempting to register the student for each course. It manages the sequencing, updates student details based on the process, handles semester information, and ultimately writes the student's details to some output (results).
 
    CourseSequencer Helper: This method manages course assignments for a student. It checks for state changes, assigns courses based on certain conditions, handles group numbers, manages a semester list, and handles waitlisting if necessary. The method also accounts for maximum course limits per semester and updates state changes as needed.
-
------------------------------------------------------------------------
-### Academic Honesty statement:
------------------------------------------------------------------------
-
-"I have done this assignment completely on my own. I have not copied
-it, nor have I given my solution to anyone else. I understand that if
-I am involved in plagiarism or cheating I will have to sign an
-official form that I have cheated and that this form will be stored in
-my official university record. I also understand that I will receive a
-grade of 0 for the involved assignment for my first offense and that I
-will receive a grade of F for the course for any additional
-offense.""
-
-Date:  16/11/2023.
-
-
